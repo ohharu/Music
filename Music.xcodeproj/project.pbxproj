@@ -12,6 +12,12 @@
 		CB449205206F2FEB007E5728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB449203206F2FEB007E5728 /* Main.storyboard */; };
 		CB449207206F2FEB007E5728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB449206206F2FEB007E5728 /* Assets.xcassets */; };
 		CB44920A206F2FEB007E5728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB449208206F2FEB007E5728 /* LaunchScreen.storyboard */; };
+		CB449218206F3018007E5728 /* aki.png in Resources */ = {isa = PBXBuildFile; fileRef = CB449212206F3018007E5728 /* aki.png */; };
+		CB449219206F3018007E5728 /* natsu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB449213206F3018007E5728 /* natsu.mp3 */; };
+		CB44921A206F3018007E5728 /* ame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB449214206F3018007E5728 /* ame.mp3 */; };
+		CB44921B206F3018007E5728 /* natsu.png in Resources */ = {isa = PBXBuildFile; fileRef = CB449215206F3018007E5728 /* natsu.png */; };
+		CB44921C206F3018007E5728 /* ame.png in Resources */ = {isa = PBXBuildFile; fileRef = CB449216206F3018007E5728 /* ame.png */; };
+		CB44921D206F3018007E5728 /* aki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB449217206F3018007E5728 /* aki.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		CB449206206F2FEB007E5728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB449209206F2FEB007E5728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB44920B206F2FEB007E5728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB449212206F3018007E5728 /* aki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aki.png; sourceTree = "<group>"; };
+		CB449213206F3018007E5728 /* natsu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = natsu.mp3; sourceTree = "<group>"; };
+		CB449214206F3018007E5728 /* ame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ame.mp3; sourceTree = "<group>"; };
+		CB449215206F3018007E5728 /* natsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natsu.png; sourceTree = "<group>"; };
+		CB449216206F3018007E5728 /* ame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ame.png; sourceTree = "<group>"; };
+		CB449217206F3018007E5728 /* aki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aki.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +68,26 @@
 			children = (
 				CB4491FF206F2FEB007E5728 /* AppDelegate.swift */,
 				CB449201206F2FEB007E5728 /* ViewController.swift */,
+				CB449211206F3018007E5728 /* Music素材 */,
 				CB449203206F2FEB007E5728 /* Main.storyboard */,
 				CB449206206F2FEB007E5728 /* Assets.xcassets */,
 				CB449208206F2FEB007E5728 /* LaunchScreen.storyboard */,
 				CB44920B206F2FEB007E5728 /* Info.plist */,
 			);
 			path = Music;
+			sourceTree = "<group>";
+		};
+		CB449211206F3018007E5728 /* Music素材 */ = {
+			isa = PBXGroup;
+			children = (
+				CB449212206F3018007E5728 /* aki.png */,
+				CB449213206F3018007E5728 /* natsu.mp3 */,
+				CB449214206F3018007E5728 /* ame.mp3 */,
+				CB449215206F3018007E5728 /* natsu.png */,
+				CB449216206F3018007E5728 /* ame.png */,
+				CB449217206F3018007E5728 /* aki.mp3 */,
+			);
+			path = "Music素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +149,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB44921A206F3018007E5728 /* ame.mp3 in Resources */,
 				CB44920A206F2FEB007E5728 /* LaunchScreen.storyboard in Resources */,
+				CB449219206F3018007E5728 /* natsu.mp3 in Resources */,
+				CB44921D206F3018007E5728 /* aki.mp3 in Resources */,
 				CB449207206F2FEB007E5728 /* Assets.xcassets in Resources */,
 				CB449205206F2FEB007E5728 /* Main.storyboard in Resources */,
+				CB44921C206F3018007E5728 /* ame.png in Resources */,
+				CB44921B206F3018007E5728 /* natsu.png in Resources */,
+				CB449218206F3018007E5728 /* aki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
